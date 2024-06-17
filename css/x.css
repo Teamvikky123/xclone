@@ -1,0 +1,919 @@
+.container{
+    height: 1000rem;   
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    /* position: relative; */
+
+    
+}
+
+.all{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.sidebar{
+    width: 23%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    scrollbar-width: 20px;
+    scroll-behavior: initial;
+}
+
+
+.luckyfollow{
+    background-color: transparent;
+    align-items: center;
+}
+.chadfollow{
+    background-color: transparent;
+    align-items: center;
+}
+
+
+div{
+    /* border: 2px solid black; */
+}
+
+.xcgfollow{
+    background-color: transparent;
+    align-items: center;
+}
+
+.side{
+    height: 55px;
+    align-content: center;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+}
+
+.side:hover{
+    background-color: rgb(233, 223, 223);
+    border: 2px solid rgb(255, 246, 246);
+}
+
+.sidecon{
+    /* border: 1px solid black; */
+}
+
+.sidecon>.side>a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(15,20,25);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(29,155,240);
+    color: white;
+}
+
+.postdiv{
+    width: 60%;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+}
+
+.pos{
+    align-content: center;
+    display: none;
+}
+
+.lowerside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.second{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    box-sizing: border-box;
+    
+    
+}
+
+.secondcontainer{
+    position: relative;
+}
+
+.secondcontainerdiv{
+    position: relative;
+}
+
+
+.third{
+    /* border: 2px solid black; */
+    width: 25%;
+    /* position: sticky; */
+    height: 70rem;
+    top: 0;
+    right: 0;
+    
+
+}
+
+.inputborder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.input{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 25px;
+    background-color: rgb(239,243,244); 
+    gap: 30px;
+    border: none;  
+    margin-top: 20px;
+}
+
+.inputarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.plate{
+    border: none;
+    height: 18rem;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 23px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+    border: 0.3px solid rgb(238, 231, 231);
+    position: relative;
+}
+.like{
+    margin-left: 15px;
+}
+
+.account{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lucky{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    align-content: center;
+    height: 60px;
+}
+
+.luckyfollow{
+    border: 1px solid black;
+    position: absolute;
+    right: 8px;
+    border-radius: 25px;
+    width: 75px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15,20,25);
+    color: white;
+}
+
+.luckyname{
+    /* border: 1px solid black; */
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    line-height: 1.2em;
+    height: fit-content;
+
+}
+.luckyname>div{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    height: fit-content;
+}
+.luckyname>div>p{
+    font-size: 1em;
+    margin: 0;
+    text-decoration: solid;
+}
+
+.chad{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    /* border: 1px solid black; */
+    height: 60px;
+}
+
+.chadname{
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+}
+
+.chadfollow{
+    border: 1px solid black;
+    position: absolute;
+    right: 8px;
+    border-radius: 25px;
+    width: 75px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15,20,25);
+    color: white;
+}
+
+.chadname>div>p{
+    font-size: 1em;
+    margin: 0;
+    text-decoration: solid;
+}
+
+.xcg{
+    display: flex;
+    flex-direction: row;
+}
+
+.xcgname{
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.xcgname>div>p{
+    font-size: 1em;
+    margin: 0px;
+
+}
+
+.xcgfollow{
+    border: 1px solid black;
+    position: absolute;
+    right: 8px;
+    border-radius: 25px;
+    width: 75px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15,20,25);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.platesec{
+    /* border: none; */
+    height: 38rem;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 23px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .2); */
+    border: 0.3px solid rgb(238, 231, 231);
+    position: relative;
+    border: 0.9px solid rgb(216, 210, 210);
+}
+
+.trend{
+    margin-left: 20px;
+}
+
+.hamster{
+    height: 30px;
+    text-overflow: unset;
+    font-size: 1em;
+    width: 100%;
+    height: 20px;
+    
+    
+}
+.businesss{
+    display: flex;
+    flex-direction: column;
+}
+
+.pham{
+    font-size: 1.2em;
+    align-content: center;
+    margin: 0px;
+
+}
+.posts{
+    margin: 0px;
+    font-size: 0.6em;
+    color: rgb(131,144,153);
+}
+
+.business>div>span{
+    font-size: 0.7em;
+    color: rgb(131,144,153);
+}
+
+.platetext{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 5px;
+    
+}
+
+.oloshocontsiner{
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.oloshotrend{
+    color: rgb(131,144,153);
+    margin: 0px;
+    height: fit-content;
+    font-size: 0.7em;
+}
+
+.olosho{
+    font-size: 1.2em;
+    margin: 0px;
+    height: 20px;
+    /* border: 1px solid black; */
+    align-content: center;
+
+}
+
+.oloshopost{
+    align-content: center;
+    height: 14px;
+    margin: 0px;
+    font-size: 0.7em;
+    /* border: 1px solid black; */
+    color: rgb(131,144,153);
+
+}
+
+
+
+.phantomcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:  4px;
+}
+.phantomtext{
+    font-size: 0.7em;
+    margin: 0px;
+}
+
+.phantomtext>small{
+    margin: 0px;
+}
+
+.phantom{
+    margin: 0px;
+    font-size: 1.3em;
+
+}
+
+.phantomtrend{
+    color: rgb(131,144,179);
+}
+
+.phantompost>small{
+    color: rgb(131,144,179);
+}
+
+.phantom>p{
+    margin: 0px;
+
+}
+.buharicon{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin:  4px;
+}
+
+.buharitext{
+    font-size: 0.7em;
+    margin: 0px;
+}
+
+.buhari{
+    font-size: 1.2em;
+    margin: 0px;
+    height: 20px;
+    /* border: 1px solid black; */
+    align-content: center;
+
+}
+
+.buharitext>small{
+    margin: 0px;
+}
+
+.buharipost{
+    color: rgb(131,144,179); 
+}
+
+.waeccontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:  4px; 
+}
+
+.waectext{
+    font-size: 0.7em;
+    margin: 0px; 
+}
+
+.waec{
+    font-size: 1.2em;
+    margin: 0px;
+    height: 20px;
+    /* border: 1px solid black; */
+    align-content: center;
+
+}
+
+.weacpost{
+    color: rgb(131,144,179); 
+}
+
+.waectrend{
+    color: rgb(131,144,179);    
+}
+
+.davidocontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:  4px; 
+}
+
+.davidotext{
+    font-size: 0.7em;
+    margin: 0px;
+}
+
+.davidotrend{
+    color: rgb(131,144,179); 
+}
+
+.leftarrow{
+    align-content: center;
+    position: relative;
+}
+
+.leftarrow{
+    position: relative;
+}
+
+.profilepiccontainer{
+    position: relative;
+}
+
+.coverpicsdiv{
+    position: relative;
+}
+
+.firstheader{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+}
+
+.fortune{
+    align-content: center;
+    position: relative;
+}
+
+.profilepics{
+    border-radius: 50%;
+    position: relative;
+    width: 135px;
+    height: 135px;
+    
+    
+}
+
+.profilepicsdiv{
+    border-radius: 100px;
+}
+
+.profilepicsbuttom{
+    margin-top: 5rem;
+    /* border: 1px solid black; */
+    margin-left: 25px;
+}
+
+.profilepicspersonaldiv{
+    position: absolute;
+    margin: -4rem 0 0 1.5rem;
+    border: 5px solid white;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+}
+
+.profilecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.profileflex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 30%;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 28rem;
+}
+
+.followingprofile{
+    border: 2px solid rgb(241, 228, 228);
+    border-radius: 20px;
+    height: 30px;
+    align-items: center;
+    margin: 0px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.followingprofile:hover{
+    background-color:pink;
+}
+
+.followingprofilep{
+    margin: 3px;
+    font-size: 1rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+
+}
+.notificationbell{
+    border: 1px solid rgb(207, 200, 200);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.notificationbell:hover{
+    background-color: rgb(235, 225, 225);
+}
+
+.dotmore{
+    border: 1px solid  rgb(207, 200, 200);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.dotmore:hover{
+    background-color: rgb(235, 225, 225);
+}
+
+.followingprofilep:hover{
+    text-decoration: none;
+
+}
+
+.unfollow{
+    display: none;
+    /* border: 1px solid black; */
+}
+
+.followingprofile:hover .unfollow{
+    display: grid;
+    /* display: none; */
+    text-decoration: none;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.followingprofile:hover .followingprofilep{
+    display: none;
+}
+
+.followers{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.following {
+    text-decoration: none;
+    color: #000000;
+}
+
+.followerscount{
+    text-decoration: none;
+    color: #000000;  
+}
+
+.profileinfo{
+    /* border: 1px solid black; */
+    align-content: center;
+    align-items: center;  
+    display: flex;
+    flex-direction: row;  
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.following>span{
+    color:  rgb(142,153,161);
+}
+
+.followerscount>span{
+   color:  rgb(142,153,161); 
+}
+.profileinfo>small{
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid black; */
+    color: rgb(142,153,161);
+}
+
+.anyonefollowing>small{
+    color: rgb(142,153,161);
+    
+}
+
+.postsnreply{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+
+.postsnreply>div>a{
+    text-decoration: none;
+    color: rgb(67, 68, 68);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.apipost{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid rgb(207, 205, 205);
+    height: 13rem;
+    padding-top: 20px;
+
+}
+
+.apipostmr{
+    margin-left: 15px;
+}
+
+.apipostfirstdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    align-items: center;
+    align-content: center;
+    height: 30px;
+}
+
+.mrfortuneapi{
+    color: rgb(142,153,161);
+}
+
+.apipost>div>img{
+    border-radius: 40px;
+}
+
+.apipostimg{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(214, 211, 211);
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 15px;
+    height: 130px;
+    align-items: center;
+    align-content: center;
+}
+
+.apipostlower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.nigeriainfo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(223, 217, 217);
+}
+
+.nigeriainfoprofile{
+    border-radius: 50px;
+}
+
+.nigeriainfopost{
+    border-radius: 15px;
+}
+.nigeriainfocontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.nigeriainfoprofildiv{
+    margin-top: 15px;
+}
+
+.runtowntext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    height: 30px;
+}
+.runtown{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(192, 186, 186);
+}
+
+.runtownpost>div>P{
+    /* border: 1px solid black; */
+}
+
+.runtownprofile{
+    margin-top: 15px;
+}
+
+
+.mrfortunepost{
+    border-radius: 40px;
+    margin-top: 15px;
+}
+
+.mrfortune{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(209, 202, 202);
+}
+
+.mrfortunecontent{
+    /* border: 1px solid sblack; */
+    width: 75%;
+}
+
+.mrfortunetext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.mrfortuneprofilepicssec{
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.mrfortunesec{
+    display: flex;
+    flex-direction: row;
+}
+
+.mrfortunesectext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.firsttofollow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.luckyfollowsecond{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content:space-between;
+
+    width: 100%;
+
+}
+
+.luckyfollowseconddiv{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.whotofollow{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.firsttofollowdiv{
+    width: 85%;
+}
+
+.luckysea{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+@media only screen and (max-width: 800px) {
+    a {
+      display: none;
+    }
+    .postdiv{
+        display: none;
+    }
+    .pos{
+        display: grid;
+        justify-content: center;
+    }
+
+    .sidebar{
+        width: 18%;
+    }
+    .third{
+        display: none;
+    }
+  }
